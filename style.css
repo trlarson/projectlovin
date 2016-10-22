@@ -1,0 +1,137 @@
+/*
+Theme Name:     Katla by Bluthemes - Child Theme
+Theme URI:      http://www.bluthemes.com/themes/katla/
+Description:    Child theme for Katla
+Author:         Bluthemes
+Author URI:		http://bluthemes.com
+Template:       blt-katla                
+Version:        0.1.0
+*/
+
+@import url("../blt-katla/style.css");
+
+.single-title {
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+.category-funko-pop-collections .single-meta {
+  display: none;
+}
+
+.pop-title {
+  position: relative;
+  padding-right: 85px;
+}
+
+.pop-image {
+  max-width: 300px;
+  display: inline-block;
+  float: left;
+  margin-right: 30px;
+}
+
+.category-funko-pop-collections .post-categories {
+  margin: 0;
+  padding: 0;
+}
+
+.category-funko-pop-collections .post-categories li {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.category-funko-pop-collections .post-categories a {
+  text-decoration: underline;
+}
+
+.category-funko-pop-collections .pop-details .category-funko-pop-collections {
+  display: none;
+}
+
+.pop-details {
+  font-size: 14px;
+  display: inline-block;
+  width: calc(100% - 330px);
+}
+
+.pop-price {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 15px;
+  color: #008000;
+  text-align: center;
+  background-color: #bcffbd;
+}
+
+.pop-price span {
+  font-weight: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-right: 7px;
+  line-height: 2;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+
+.header-actions .btn-theme.navbar-btn {
+  display: none !important;
+}
+
+.pop-number {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #ccc;
+  color: #fff;
+  padding: 10px 4px;
+  font-weight: normal;
+  padding: 0;
+  font-size: 26px;
+  height: 40px;
+  width: 60px;
+  line-height: 1.65;
+  text-align: center;
+}
+
+.post-categories li {
+  display: inline-block;
+  width: 33%;  
+}
+
+.post-categories li a {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.category-pop-hauls .post-thumbnail-area {
+  display: none;
+}
+
+#site-footer {
+  background: #111;
+}
+
+#site-footer .footer-text {
+  border: none;
+  color: #eee;
+}
+
+.category-funko-pop-collections .content-footer {
+  display: none;
+}
+
+.category-funko-pop-collections .content-meta {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.category-funko-pop-collections .content-meta img {
+  display: block;
+  max-width: 300px;
+}
